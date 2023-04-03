@@ -1,20 +1,47 @@
-# Image Classification with TensorFlow
+Here is the full readme.md markdown code for the image classification web app:
 
-This is a simple image classification project using TensorFlow. The project involves training a model to classify images of three different shoe brands: Adidas, Converse, and Nike.
+markdown
+Copy code
+# Image Classification Web App
+
+This is a simple Flask web application that uses a pre-trained neural network to classify images into one of three categories: Adidas, Converse, or Nike. Users can upload an image and the model will predict which category the image belongs to.
 
 ## Requirements
-- Python 3
-- TensorFlow
-- PIL (Python Imaging Library)
 
-## Dataset
-The dataset contains 711 images, which are divided into training and validation sets. The `train` folder contains 569 images for training, and the `test` folder contains 142 images for validation.
+To run this web app, you will need:
+
+- Python 3.6 or higher
+- Flask 1.1.2 or higher
+- TensorFlow 2.0 or higher
+- Numpy
+- Pillow
+
+You can install these dependencies using pip:
+
+pip install flask tensorflow numpy pillow
+
 
 ## Usage
-1. Clone this repository to your local machine.
-2. Navigate to the project directory and install the required packages using `pip install -r requirements.txt`.
-3. Run `python train.py` to train the model.
-4. Run `python predict.py <image_path>` to classify a new image.
+
+To start the web app, run the following command in your terminal:
+
+python app.py
+
+This will start the Flask server on `http://localhost:5000/`. You can then open a web browser and go to `http://localhost:5000/` to access the web app.
+
+## File structure
+
+The file structure of this project is as follows:
+
+app.py # Flask web app code
+saved_model/ # Pre-trained neural network model
+static/ # Static files (CSS, JS, images)
+templates/ # HTML templates
+README.md # Project description and instructions
 
 ## Credits
-The dataset used in this project was obtained from Kaggle.
+
+The pre-trained neural network used in this web app was created using TensorFlow and the [Keras API](https://keras.io/). The image dataset used to train the model was obtained from [Kaggle](https://www.kaggle.com/datamine/adidas-converse-nike). 
+
+
+
