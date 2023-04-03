@@ -38,7 +38,7 @@ README.md # Project description and instructions
 
 ## Credits
 
-The pre-trained neural network used in this web app was created using TensorFlow and the [Keras API](https://keras.io/). The image dataset used to train the model was obtained from [Kaggle](https://www.kaggle.com/datamine/adidas-converse-nike). 
+The pre-trained neural network used in this web app was created using TensorFlow and the [Keras API](https://keras.io/). The image dataset used to train the model was obtained from [Kaggle]([https://www.kaggle.com/datamine/adidas-converse-nike](https://www.kaggle.com/datasets/die9origephit/nike-adidas-and-converse-imaged)). 
 
 
 
