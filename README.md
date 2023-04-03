@@ -1,7 +1,4 @@
-Here is the full readme.md markdown code for the image classification web app:
 
-markdown
-Copy code
 # Image Classification Web App
 
 This is a simple Flask web application that uses a pre-trained neural network to classify images into one of three categories: Adidas, Converse, or Nike. Users can upload an image and the model will predict which category the image belongs to.
