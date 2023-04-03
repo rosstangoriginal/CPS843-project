@@ -31,10 +31,15 @@ This will start the Flask server on `http://localhost:5000/`. You can then open 
 The file structure of this project is as follows:
 
 app.py # Flask web app code
+
 saved_model/ # Pre-trained neural network model
+
 static/ # Static files (CSS, JS, images)
+
 templates/ # HTML templates
+
 README.md # Project description and instructions
+
 
 ## Credits
 
